@@ -1,0 +1,250 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration:none;
+  list-style:none;
+}
+body {
+  font-family:montserrat;
+  background: rgb(59, 57, 57);
+
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#particles-js{
+ 
+  background: rgb(59, 57, 57);
+  height:100%;
+  width: 100%;
+}
+
+
+
+/* Main body style */
+
+/* dropdown */
+.dropdown {
+  
+}
+
+.dropdown select {
+  background-color: #16a55e;
+  color: white;
+  padding: 4px;
+  width: 250px;
+  border: none;
+  font-size:20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+/* .dropdown::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+} */
+
+.dropdown:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown select option {
+  padding: 30px;
+}
+
+/* dropdownend */
+
+.flex-wrapper {
+  
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.choose{
+  /* background: red; */
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.box {
+  background: rgba(40, 40, 41, 0.589);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  outline: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+
+.input-wrap {
+  padding: 0px;
+  text-align: center;
+}
+
+.input-wrap input {
+  max-width: 200px;
+  width: 100%;
+  font-size: 18px;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+textarea { 
+  resize:vertical; 
+  text-decoration-line: none;
+  min-width: 600px;
+  max-height: 300px;
+  text-decoration: none;
+  outline: none;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+input[type=submit] {
+  background: rgba(40, 40, 41, 0.589);
+  border: 1.5px solid rgb(54, 167, 54);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+input:hover[type="submit"] 
+		{
+			background-color: #4CAF50;
+      box-shadow: 0 5px 15px rgba(26, 219, 90, 0.781)
+		}
+
+
+input[type=reset] {
+  background: rgba(40, 40, 41, 0.589);
+  border: 1.5px solid rgb(204, 17, 17);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+input:hover[type="reset"] 
+		{
+			background-color: #f03f09;
+      box-shadow: 0 5px 15px rgba(207, 46, 25, 0.74)
+		}
+
+
+.readcsv{
+  background: rgba(40, 40, 41, 0.589);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  padding: 1%;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  min-width: 870px;
+
+}
+
+.csvinfo{
+  /* background: pink; */
+
+  
+  
+}
+
+input[type=file]::file-selector-button {
+  background-color: rgb(85, 72, 207); /* Green */
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+
+  border-top-left-radius:5px;  
+  border-top-right-radius:5px;  
+  border-bottom-right-radius:5px;  
+  border-bottom-left-radius:5px; 
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+#upload{
+  
+  background-color: rgb(85, 72, 207); /* Green */
+  border: none;
+  color: white;
+  padding: 6px;
+  /* padding-bottom: 5px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  
+
+  border-top-left-radius:5px;  
+  border-top-right-radius:5px;  
+  border-bottom-right-radius:5px;  
+  border-bottom-left-radius:5px; 
+  margin-top: 20px;
+  margin-left: 20px;
+
+
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.footer {
+
+background: rgb(27, 27, 27);
+color: white;
+text-align: center;
+padding-top: 15px;
+width: 100%;
+line-height: 0.5;
+margin-bottom: -100px;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
