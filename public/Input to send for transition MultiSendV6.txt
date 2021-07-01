@@ -1,0 +1,19 @@
+[
+        {
+          "constructor": "Pair",
+          "argtypes": [ "ByStr20", "Uint128" ],
+          "arguments": [ "0x78eb69306AEf70d195D2eE6B84755A2234135d18", "1" ]
+        },
+        {
+          "constructor": "Pair",
+		 
+          "argtypes": [ "ByStr20", "Uint128" ],
+          "arguments": [ "0x78eb69306AEf70d195D2eE6B84755A2234135d18", "2" ]
+        },
+		{
+          "constructor": "Pair",
+          "argtypes": [ "ByStr20", "Uint128" ],
+          "arguments": [ "0x78eb69306AEf70d195D2eE6B84755A2234135d18", "1" ]
+        }
+		
+]
